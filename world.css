@@ -1,1 +1,82 @@
-/* Add your own styles */
+/* 1. Page background and font */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f8;
+    margin: 0;
+    padding: 40px 20px;
+}
+
+/* 2. Center the content and give it a white box */
+main {
+    width: 80%; /* Takes up 80% of the screen */
+    max-width: 900px;
+    margin: 0 auto; /* Centers the box */
+    background-color: white;
+    padding: 30px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+/* 3. Center the heading and controls */
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#controls {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* 4. Style the input box and buttons */
+input {
+    padding: 10px;
+    width: 250px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+button {
+    padding: 10px 15px;
+    font-size: 16px;
+    margin-left: 5px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: #4CAF50; /* Green */
+    color: white;
+}
+
+button:hover {
+    background-color: #45a049; /* Darker green when hovering */
+}
+
+/* 5. Style the table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th {
+    background-color: #333;
+    color: white;
+    padding: 12px;
+    text-align: left;
+}
+
+td {
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Alternate row colors (stripes) */
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+/* Change color when hovering over a row */
+tr:hover {
+    background-color: #f1f1f1;
+}
